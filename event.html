@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/events.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/event.js" defer></script>
+    <script src="./assets/js/navbar.js" defer></script>
+    <script src="https://kit.fontawesome.com/cb8c25bf88.js" crossorigin="anonymous"></script>
+    <title>Events | WCI Lome</title>
+</head>
+<body>
+    <header>
+        <!-- Desktop and tablet horizontal navbar -->
+        <div id="navbar" class="navbar">
+            <div id="nav_closer" class="closer_container">
+                <i>rygdyryfgry</i>
+            </div>
+            <div class="logo_container">
+                <a href="./">
+                    <img src="./assets/images/wci-logo-white.png" alt="Winners Chapel International Lome Togo">
+                </a> 
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav_link"><a href="./about.html">About</a></li>
+                    <li class="nav_link"><a href="./wsf.html">WSF</a></li>
+                    <li class="nav_link"><a href="./event.html">Events</a></li>
+                    <li class="nav_link"><a href="./transport.html">Transport</a></li>
+                    <li class="nav_link"><a href="./new.html">Are You New ?</a></li>
+                    <!-- <li>Bookstore</li> -->
+                    <li class="nav_link"><a href="./give.html">Give</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Mobile toggle navbar -->
+        <div id="mobile_navbar" class="mobile_navbar">
+            <div>   
+                <div class="logo_container">
+                    <a href="./">
+                        <img src="./assets/images/wci-logo-white.png" alt="Winners Chapel International Lome Togo">
+                    </a> 
+                </div>
+                <div id="menu" class="menu">
+                    <i class="fa-bars">ggg</i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Next Event section -->
+        <section class="next_event">
+            <div class="main_title">
+                <span>COMING UP NEXT</span>
+            </div>
+            <div id="Up_Ev_box" class="next_event_presenter schedule_item" data="">
+                <div id="Up_Ev_img" class="image_container">
+                    <img src="./assets/images/mid-year_praise_harvest.jpg" alt="">
+                </div>
+                <div id="Up_Ev_name" class="event_name">
+                    <span>Mid-Year Thanksgiving Praise</span>
+                </div>
+            </div>
+        </section>
+        <!-- Section containing current month and next month schedules -->
+        <section class="monthly_schedules">
+            <div class="month_schedules">
+                <div class="schedule_title">
+                    <span>This Month</span>
+                </div>
+                <div class="schedules">
+                    <ul>
+                        <li class="schedule_item" data="Mid_Year_Praise">Mid Year AGAPE Feast</li>
+                        <li class="schedule_item" data="June_Thanksgiving">Thanksgiving Service</li>
+                        <li class="schedule_item" data="June_WOFBI">Word Of Faith Bible Institute (WOFBI)</li>
+                        <li class="schedule_item" data="June_SFC">Selebs for Celebs (June Edition)</li>
+                        <li class="schedule_item" data="EYAC">Easter Youth Alive Camp (EYAC)</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="month_schedules">
+                <div class="schedule_title">
+                    <span>Next Month</span>
+                </div>
+                <div class="schedules">
+                    <ul>
+                        <li class="schedule_item" data="Mid_Year_Praise">Mid Year AGAPE Feast</li>
+                        <li class="schedule_item" data="June_Thanksgiving">Thanksgiving Service</li>
+                        <li class="schedule_item" data="June_WOFBI">Word Of Faith Bible Institute (WOFBI)</li>
+                        <li class="schedule_item" data="June_SFC">Selebs for Celebs (June Edition)</li>
+                        <li class="schedule_item" data="EYAC">Easter Youth Alive Camp (EYAC)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- Schedule Modal to present each event infos -->
+        <section id="schedule_modal" class="schedule_modal_wrapper">
+            <div class="schedule_modal">
+                <div class="image_container close_button_container">
+                    <img id ="event_image" src="" alt="">
+                </div>
+                <div class="description_closer_container">
+                    <div class="closer_container">
+                        <div id="closer" class="button">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    </div>
+                    
+                    <div class="description_container">
+                    <div class="description_header">
+                        <span id="title"></span>
+                    </div>
+                    <div class="description_body">
+                        <div class="description_text">
+                            <span id="description_text"></span>
+                        </div>
+                        <div class="description_items">
+                            <div class="items_title">
+                                <span id="items_title"></span>
+                            </div>
+                            <div id="items_list" class="items_list"></div>
+                        </div>
+                    </div>
+                    <div class="description_footer">
+                        <div class="date_container">
+                            <!-- A checker -->
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <span id="event_date"></span>
+                        </div>
+                        <div class="time_container">
+                            <!-- A checker -->
+                            <i class="fa-regular fa-clock"></i>
+                            <span id="event_time"></span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="description_contact_info_container">
+            <div class="logo_name_container">
+                <div class="footer_logo_container">
+                    <img src="./assets/images/footer_logo.png" alt="">
+                </div>
+                <div class="name_container">
+                    <span>Winners' Chapel International Lomé TOGO</span>
+                </div>
+            </div>
+            <div class="description_container">
+                <span><b>Winners' Chapel International Lomé TOGO </b>is a global solution center to every challenged person; and home of blessings unto all men Lorem ipsum dolor sit amet consectetur adipisicing elit sit aliquam </span>
+            </div>
+            <div class="contact_info_container">
+                <div class="contact_line">
+                    <div class="logo">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="link_text">
+                        <span><a href="tel:+228 93 07 96 96">+228 93 07 96 96</a></span>
+                    </div>
+                </div>
+                <div class="contact_line">
+                    <div class="logo">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="link_text">
+                        <span><a href="mailto:wci.lome@lfcww.org">wci.lome@lfcww.org</a></span>
+                    </div>
+                </div>
+                <div class="contact_line">
+                    <div class="logo">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="link_text">
+                        <span><a href="https://maps.app.goo.gl/CPDvS1rVkXJaz1EZ7">Lomé, Airport Road Just after ASECNA/ANAC</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services_info_container">
+            <div class="footer_section_title">
+                <span>Our Services</span>
+            </div>
+            <div class="service_container">
+                <div class="service_name">
+                    <span>Sunday Services</span>
+                </div>
+                <div class="service_day_time">
+                    <div class="service_day">
+                        <span>Sundays</span>
+                    </div>
+                    <div class="service_time">
+                        <span>6.30 a.m to 8.30 a.m (English-French)</span>
+                        <br>
+                        <span>8.35 a.m to 10.35 a.m (English-Ewe)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service_container">
+                <div class="service_name">
+                    <span>Midweek Communion and Breakthrough Service</span>
+                </div>
+                <div class="service_day_time">
+                    <div class="service_day">
+                        <span>Wednesdays</span>
+                    </div>
+                    <div class="service_time">
+                        <span>6 p.m to 8 p.m (English-French-Ewe)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service_container">
+                <div class="service_name">
+                    <span>Covenant Hour Of Prayer</span>
+                </div>
+                <div class="service_day_time">
+                    <div class="service_day">
+                        <span>Monday to Friday</span>
+                    </div>
+                    <div class="service_time">
+                        <span>5.30 a.m to 6.30 a.m</span>
+                    </div>
+                </div>
+                <div class="service_day_time">
+                    <div class="service_day">
+                        <span>Saturday</span>
+                    </div>
+                    <div class="service_time">
+                        <span>6.30 a.m to 7.30 a.m</span>
+                    </div>
+                </div>
+            </div>
+            <div class="service_container">
+                <div class="service_name">
+                    <span>Winners' Satellite Fellowship</span>
+                </div>
+                <div class="service_day_time">
+                    <div class="service_day">
+                        <span>Saturdays</span>
+                    </div>
+                    <div class="service_time">
+                        <span>From 5 p.m to 6 p.m</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="links_container">
+            <div class="footer_section_title">
+                <span>Our Social Medias</span>
+            </div>
+            <div class="link_bar">
+                <div class="logo">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="link_text">
+                    <span><a href="https://www.facebook.com/Winnerschapeltogo/">Winners Chapel International Lome</a></span>
+                </div>
+            </div>
+            <div class="link_bar">
+                <div class="logo">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="link_text">
+                    <span><a href="https://www.instagram.com/winnerschapeltogo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Winners Chapel International Lome</a></span>
+                </div>
+            </div>
+            <div class="link_bar">
+                <div class="logo">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="link_text">
+                    <span><a href="https://www.youtube.com/@winnerschapelintltogo4264">Winners Chapel Int'l Togo</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

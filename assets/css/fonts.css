@@ -1,0 +1,17 @@
+/* Setting the fonts to be used */
+@font-face {
+    font-family: "poppins_semibold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+@font-face {
+    font-family: "poppins_bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+@font-face {
+    font-family: "poppins_regular";
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+@font-face {
+    font-family: "poppins_italic";
+    src: url(../fonts/Poppins-Italic.ttf);
+  }
