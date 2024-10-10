@@ -131,3 +131,37 @@ let giving_ways_data = {
     "tmoney": ["./assets/images/tmoney.png","Tmoney",["<b>Offering:</b> 93 07 96 96","<b>Tithe:</b> 92 17 78 18"]],
     "bank": ["./assets/images/bank_trans.png","Bank Transfer",["<b>Ecobank:</b> 1400 135 900 26"]]
 }
+
+let ministries = {
+    "children": ["Children's Church",`'We have a strong passion for Children and the desire to see them grow in the knowledge of Christ. We believe that as your children become rooted and grounded here, they would become and remain winners in every area of their lives in Jesus name.
+    <br/>
+    The Children’s church is designed to assist the children with developing a real relationship with God, Jesus Christ, and the person of the Holy Spirit by teaching them the word of faith that will deliver them from all oppressions of the devil.
+    <br/>
+    Our main goal as the leaders, teachers, and members of the Children’s church team is to reach out to every child with the love of Christ and do all we can to saturate the spirit, soul and body of the children with the word of God so they are equipped with all they would need to face the challenges of life and come out triumphant.
+    <br/>
+    We believe that it is when the children have understanding that they can begin to walk towards a lifetime of excellence in every area of their lives.
+    <br/>
+    The Children’s Church services holds at <b>6.30am and 8.35am.</b>`],
+
+    "teens": ["Teenager's Ministry",`The Teens Church at Winners Chapel Lome TOGO is designed to reach out to our teenagers with the liberating message of faith to build them up for a glorious future.
+    <br/>
+    It is common knowledge that there is wide spreads decadence within the teenagers of our land. However, contrary to that moral erosion, God is set to raise men and women of honour and glory from amongst them.
+    <br/>
+    It is with this at heart that our teen’s church tirelessly pursues the liberation mandate as it concerns the teenagers in the language that they understand and relate to, losing them from the decadence and setting them up for a destiny of glory.
+    <br/>
+    Therefore, all teenagers are welcome to partake of this colourful ministry to deliver a glorious destiny. You may find the details below helpful in giving directions concerning some of the events in our teens church calendar.
+    <br/>
+    In addition to these set programs, there will be special programs brought to your notice from time to time for the edification of our teenagers. We encourage you to take part in them and they will bring a change of story.
+    <br/>
+    Teens Chuch service hold from <b>6.30 a.m to 8.30 a.m</b>
+    `],
+    
+
+    "youth": ["Youth's Ministry",`Our Youth and Singles Ministry at Winners Chapel International Lome TOGO is designed in a unique way to enhance the value of every individual and set them up for supernatural accomplishments.
+        <br/>
+        This ministry is specifically focused on raising people with a difference.The programming of the youth and singles is directed at their specific needs, touching on areas like destiny, relationships and marriage, finance and many other relevant areas.
+        <br/>
+        We believe that when the youths and singles are spiritually buoyant, they will be definite change agents for this generation.
+        <br/>
+        Therefore you definitely need to be a part of this great army.Youth programs will usually be announced from time to time for your edification. Please take full advantage of them and your life will never be the same`]
+}

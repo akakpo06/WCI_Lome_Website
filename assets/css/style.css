@@ -186,17 +186,21 @@ quote{
     font-family: "poppins_regular";
     padding: 4% 0%;
     font-size: 1rem;
+    height: 50%;
+    overflow: hidden;
 }
 .read_more{
     font-family: "poppins_regular";
     margin-bottom: 5%;
     padding: 3% 0%;
+    cursor: pointer;
+    text-decoration: underline;
 }
-.read_more a{
+.read_more span{
     font-size: 1.2rem;
     color: black;
 }
-.read_more a:hover{
+.read_more span:hover{
     transform: scale(1.05);
     color: white;
 }
@@ -331,7 +335,7 @@ quote{
     }
     .main_title, .request_prayer_title{
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .secondary_title{
         margin: auto;
@@ -351,21 +355,36 @@ quote{
         width: 100%;
         display: flex;
         margin-bottom: 10%;
+        max-height: 200px;
     }
     .cards_container .image_container{
         width: 40%;
+        height: 200px;
     }
     .cards_container .card_body{
         width: 60%;
+        height: 100%;
     }
-    .read_more a{
+    .card_text{
+        height: 100px;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+    .read_more span{
         font-size: 0.8rem;
     }
+    .formline{
+        flex-direction: column;
+        align-items: center;
+    }
     .request_prayer input{
+        font-size: 0.8rem;
         width: 250px;
         height: 35px;
+        margin-bottom: 20px;
     }
     .request_prayer button{
+        font-size: 0.8rem;
         height: 35px;
     }
 }

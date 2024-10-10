@@ -21,6 +21,5 @@ locate.addEventListener("click", function () {
     
     // postion getter here .....
     let userPos =  findCells(map);
-    
     // map.setView([userPos.coords.latitude, userPos.coords.longitude], 18);
 })

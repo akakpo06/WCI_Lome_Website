@@ -116,6 +116,6 @@ async function findCells(map) {
 
         
     }
-    return userPosition
+    return userPos
 
 }

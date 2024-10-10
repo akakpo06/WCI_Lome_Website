@@ -154,6 +154,9 @@ header::after{
         padding: 5%;
         color: white;
     }
+    .menu i {
+        font-size: 2rem;
+    }
     .navbar{
         justify-content: space-between;
         position: fixed;

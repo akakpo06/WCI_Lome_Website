@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/modals.css">
     <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/cb8c25bf88.js" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./assets/js/send_prayer.js" defer></script>
     <script src="./assets/js/navbar.js" defer></script>
+    <script src="./assets/js/data.js" defer></script>
+    <script src="./assets/js/ministries.js" defer></script>
     <title>Winners' Chapel International Lomé</title>
 </head>
 <body>
@@ -20,7 +23,7 @@
         <!-- Desktop and tablet horizontal navbar -->
         <div id="navbar" class="navbar">
             <div id="nav_closer" class="closer_container">
-                <i>rygdyryfgry</i>
+                <i class="fa-solid fa-x"></i>
             </div>
             <div class="logo_container">
                 <a href="./">
@@ -48,7 +51,7 @@
                     </a> 
                 </div>
                 <div id="menu" class="menu">
-                    <i class="fa-bars">ggg</i>
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
         </div>
@@ -133,7 +136,7 @@
                             <span>We have a strong passion for Children and the desire to see them grow in the knowledge of Christ. Our main goal is to reach out to every child with God’s love</span>
                         </div>
                         <div class="read_more">
-                            <a href="">Read More</a>
+                            <span class="card_link"  data="children" >Read More</span>
                         </div>
                     </div>
                 </div>
@@ -149,7 +152,7 @@
                             <span>We have a strong passion for Children and the desire to see them grow in the knowledge of Christ. Our main goal is to reach out to every child with God’s love</span>
                         </div>
                         <div class="read_more">
-                            <a href="">Read More</a>
+                            <span class="card_link"  data="teens" >Read More</span>
                         </div>
                     </div>
                 </div>
@@ -165,9 +168,28 @@
                             <span>We have a strong passion for Children and the desire to see them grow in the knowledge of Christ. Our main goal is to reach out to every child with God’s love</span>
                         </div>
                         <div class="read_more">
-                            <a href="">Read More</a>
+                            <span class="card_link"  data="youth">Read More</span>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div id="ministry_modal" class="main-modal-wrapper hide">
+                <div class="main-modal">
+                    <div class="modal_header">
+                        <div class="button_container">
+                            <div id="closer" class="button">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+                        <div id="ministry_modal_title" class="modal_title">
+                            <span></span>
+                        </div>
+                    </div>
+                    
+                    <div id="ministry_modal_text" class="modal_text">
+                        <span></span>
+                    </div>
+                   
                 </div>
             </div>
         </section>
