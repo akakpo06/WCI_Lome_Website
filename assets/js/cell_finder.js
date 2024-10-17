@@ -31,6 +31,8 @@ async function getCellData() {
     }
       return data
 }
+
+// No longer used
 async function getEmbedIframe(link) {
     const url = `https://iframe.ly/api/iframely?url=${link}&key=eb8ce224448d19aa54bb5f6ccd241fac`
     let result = {}
@@ -63,20 +65,20 @@ async function setCellsPosMarker(lat, lng, name, number, image) {
     
         let mapLink = "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng 
     
-        imageId = image.match(/[\w\_\-]{25,}/).toString();
-        // let imageLink = "https://drive.google.com/file/d/"+imageId+"/preview"
+        // imageId = image.match(/[\w\_\-]{25,}/).toString();
+        // // let imageLink = "https://drive.google.com/file/d/"+imageId+"/preview"
     
-        // console.log(imageId)
-        let imageLink = "https://drive.google.com/file/d/1"+imageId+"/view"
+        // // console.log(imageId)
+        // let imageLink = "https://drive.google.com/file/d/1"+imageId+"/view"
         
     
     
-        let imageFrame = await getEmbedIframe(image)
+        // let imageFrame = await getEmbedIframe(image)
     
         L.marker([lat, lng]).addTo(map).bindPopup(`
         <div class="cell_info">
             <!-- <div class="img_container"> -->
-                ${imageFrame}
+                <!-- delete space between $ and { to restore variable $ {imageFrame} -->
                 <!-- <img crossorigin="anonymous" src=${image} alt="map image" > -->
             </div>
             <div class="desc_container">
