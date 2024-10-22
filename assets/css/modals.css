@@ -23,11 +23,18 @@
 }
 .main-modal{
     width: 80%;
-    height: 70%;
-    background-color: white;
-    color: black;
-    padding: 5%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
     overflow: scroll;
+    background-size: cover;
+
+}
+.main-modal-inner{
+    height: 100%;
+    color: white;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .button_container{
     padding: 1% 0%;

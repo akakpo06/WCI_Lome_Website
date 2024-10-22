@@ -143,7 +143,7 @@ let ministries = {
     <br/>
     We believe that it is when the children have understanding that they can begin to walk towards a lifetime of excellence in every area of their lives.
     <br/>
-    The Children’s Church services holds at <b>6.30am and 8.35am.</b>`],
+    The Children’s Church services holds at <b>6.30am and 8.35am.</b>`, "./assets/images/children_ministry.jpg"],
 
     "teens": ["Teenager's Ministry",`The Teens Church at Winners Chapel Lome TOGO is designed to reach out to our teenagers with the liberating message of faith to build them up for a glorious future.
     <br/>
@@ -156,7 +156,7 @@ let ministries = {
     In addition to these set programs, there will be special programs brought to your notice from time to time for the edification of our teenagers. We encourage you to take part in them and they will bring a change of story.
     <br/>
     Teens Chuch service hold from <b>6.30 a.m to 8.30 a.m</b>
-    `],
+    `, "./assets/images/teenagers.jpeg"],
     
 
     "youth": ["Youth's Ministry",`Our Youth and Singles Ministry at Winners Chapel International Lome TOGO is designed in a unique way to enhance the value of every individual and set them up for supernatural accomplishments.
@@ -165,5 +165,5 @@ let ministries = {
         <br/>
         We believe that when the youths and singles are spiritually buoyant, they will be definite change agents for this generation.
         <br/>
-        Therefore you definitely need to be a part of this great army.Youth programs will usually be announced from time to time for your edification. Please take full advantage of them and your life will never be the same`]
+        Therefore you definitely need to be a part of this great army.Youth programs will usually be announced from time to time for your edification. Please take full advantage of them and your life will never be the same`,"./assets/images/youth.jpeg"]
 }

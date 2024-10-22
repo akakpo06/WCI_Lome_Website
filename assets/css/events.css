@@ -41,6 +41,10 @@ img{
 
 /* MONTHLY SCHEDULES */
 .monthly_schedules{
+    background-image: url(../images/events_background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 60%;
     padding: 2% 10%;
     display: flex;
     justify-content: center;
@@ -48,17 +52,20 @@ img{
 .month_schedules{
     padding: 2% 2%;
     width: 50%;
-    box-shadow: 5px 5px 100px rgb(212, 212, 212);
+    color: white;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.0);
     border-radius: 5%;
     min-height: 400px;
 }
 .schedule_title{
-    font-family: "poppins_bold";
-    font-size: 1.7rem;
+    font-family: "kalam-bold";
+    font-size: 2.5rem;
     text-align: center;
 }
 .schedules{
-    font-family: "poppins_regular";
+    font-family: "kalam-regular";
+    font-size: 2rem;
     padding: 0% 5%;
 }
 .schedules ul{
@@ -66,7 +73,7 @@ img{
     padding: 0%;
 }
 .schedules ul li{
-    padding-top: 10%;
+    padding-top: 5%;
     cursor: pointer;
 }
 .schedules ul li:hover{

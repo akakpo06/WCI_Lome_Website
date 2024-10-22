@@ -15,3 +15,11 @@
     font-family: "poppins_italic";
     src: url(../fonts/Poppins-Italic.ttf);
   }
+@font-face {
+    font-family: "kalam-regular";
+    src: url(../fonts/Kalam-Regular.ttf);
+  }
+  @font-face {
+    font-family: "kalam-bold";
+    src: url(../fonts/Kalam-Bold.ttf);
+  }

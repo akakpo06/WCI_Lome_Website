@@ -18,15 +18,15 @@ video{
     top: 50%;
 }
 header::after{
-    content: "";
-    display: block;
-    z-index: 1;
+    /* content: ""; */
+    display: none;
+    /* z-index: 1;
     position: absolute;
     width: 100%;
     top: 0px;
     bottom: 0px;
     opacity: 0.5;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(12, 12, 12); */
 }
 .over_video_text span{
     display: block;

@@ -3,7 +3,6 @@ footer{
     padding: 2% ;
     display: flex;
     justify-content: space-between;
-
     color: white;
 }
 
@@ -15,11 +14,10 @@ footer{
     padding: 2% ;
     width: 28%;
 }
-.description_contact_info_container:hover{
+/* .description_contact_info_container:hover{
     transition: ease-in-out 1s;
-    color: white;
     background-color: var(--primary);
-}
+} */
 .logo_name_container{
     display: flex;
     justify-content: space-between;
@@ -64,12 +62,12 @@ footer .description_container{
     border-radius: 20px;
     padding: 2% ;
 }
-.services_info_container:hover{
+/* .services_info_container:hover{
     transition: ease-in-out 1s;
     border: 1px solid var(--primary);
     color: var(--primary);
     background-color: white;
-}
+} */
 .footer_section_title{
     font-size: 1.2rem;
     font-family: "poppins_bold";
@@ -105,11 +103,11 @@ footer .description_container{
     padding: 2% ;
     width: 28%;
 }
-.links_container:hover{
+/* .links_container:hover{
     transition: ease-in-out 1s;
     color: white;
     background-color: var(--primary);
-}
+} */
 .link_bar{
     display: flex;
     padding: 4% 0%;

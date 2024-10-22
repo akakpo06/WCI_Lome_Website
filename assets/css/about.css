@@ -45,6 +45,8 @@ header::after{
     padding: 5%;
 }
 .desc_text{
+    display: flex;
+    align-self: center;
     font-family: "poppins_regular";
     font-size: 1rem;
     padding: 0% 5%;
