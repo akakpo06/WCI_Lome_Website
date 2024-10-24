@@ -189,6 +189,11 @@ img{
 }
 /* PHONE VERSION */
 @media screen and (max-width: 700px) {
+    .month_schedules{
+        margin-top: 15%;
+        min-height: 200px;
+        width: 75%;
+    }
     .schedule_modal{
         position: relative;
         flex-direction: column;
