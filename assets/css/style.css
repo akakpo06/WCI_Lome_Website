@@ -388,3 +388,10 @@ quote{
         height: 35px;
     }
 }
+
+
+@media screen and (max-width: 440px) {
+video{
+    height: 40vh;
+}
+}

@@ -41,10 +41,6 @@ img{
 
 /* MONTHLY SCHEDULES */
 .monthly_schedules{
-    background-image: url(../images/events_background.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 60%;
     padding: 2% 10%;
     display: flex;
     justify-content: center;
@@ -52,7 +48,8 @@ img{
 .month_schedules{
     padding: 2% 2%;
     width: 50%;
-    color: white;
+    color: black;
+    border: 15px solid var(--primary);
     background: none;
     background-color: rgba(0, 0, 0, 0.0);
     border-radius: 5%;

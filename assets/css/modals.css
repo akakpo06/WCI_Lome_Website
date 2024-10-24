@@ -28,7 +28,10 @@
     background-position: center;
     overflow: scroll;
     background-size: cover;
-
+}
+.about_main-modal{
+    background-color: white;
+    padding: 2% 5%;
 }
 .main-modal-inner{
     height: 100%;
