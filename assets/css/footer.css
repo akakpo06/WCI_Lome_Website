@@ -54,6 +54,10 @@ footer .description_container{
     font-family: "poppins_regular";
     padding-left: 2%;
 }
+.link_text span a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* SERVICES */
 .services_info_container{

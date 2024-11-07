@@ -112,10 +112,6 @@ header::after{
 }
 
 
-.link_text span a{
-    text-decoration: none;
-    color: inherit;
-}
 
 /* RESPONSIVE VERSIONS */
 /* TABLET VERSION */
