@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/root.css">
-    <link rel="stylesheet" href="./assets/css/about.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/galery.css">
-    <link rel="stylesheet" href="./assets/css/modals.css">
-    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/cb8c25bf88.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/data.js" defer ></script>
-    <script src="./assets/js/about.js" defer ></script>
-    <script src="./assets/js/navbar.js" defer></script>
-    <title>About | Winners’ Chapel International Lomé</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/root.css">
+        <link rel="stylesheet" href="./assets/css/fonts.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/modals.css">
+        <link rel="stylesheet" href="./assets/css/new.css">
+        <link rel="stylesheet" href="./assets/css/testimony.css">
+        <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/cb8c25bf88.js" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="./assets/js/navbar.js" defer></script>
+        <script src="./assets/js/data.js" defer></script>
+        <script src="./assets/js/translate.js" defer></script>
+        <script src="./assets/js/testimony.js" defer></script>
+        <script src="./assets/js/testimony_form.js" defer></script>
+        <title>Winners' Chapel International Lomé</title>
+    </head>
 <body>
     <header>
         <!-- Desktop and tablet horizontal navbar -->
@@ -57,165 +60,94 @@
         </div>
         <!-- Introduction image container -->
         <div class="intro_image">
-            <img src="./assets/images/about.jpg" alt="">
+            <img src="./assets/images/testimony.jpg" alt="">
         </div>
         <!-- Introduction text -->
         <div class="over_image_text">
-            <span class="main_text">About Winners' Chapel International Lomé-TOGO</span>
+            <span class="main_text">Testimonies</span>
+            <span class="secondary_text">This is the Lord's doing; it is marvellous in our eyes ... <b><i>Psalm 118:23</i></b></span>
         </div>
     </header>
     <main>
-        <!-- Presenting The LFCW Commission and WCI Lome -->
-        <section class="description">
-            <div class="desc_image_name_container">
-                <div class="desc_image">
-                    <img src="./assets/images/pastor_chuwudi.jpg" alt="">
-                </div>
-                <div class="image_name">
-                    <span class="main">Pastor Michael CHUKWUDI Ikechukwu</span>
-                    <span class="role">National Resident Pastor</span>
-                </div>
+        <section>
+            <div class="share_testimony">
+                <button id="form_button">Share your testimony</button>
             </div>
-            <div class="desc_text">
-                <span>
-                    Our Mandate for ministry was received from God in an 18-hour vision to the presiding Bishop of this commission, Bishop David O Oyedapo. During this vision, a commission was received from God to liberate mankind in all facets of human existence, to restore broken destinies, to bring healing to the infirmed.
-                    <br />
-                    This mandate was further confirmed from the epistle of Paul to the Ephesians where God Said, “Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked” (Eph 6:16). This was the genesis of this global ministry today and according to this mandate, the Word of Faith is the key to triumphant living.
-                    <br />
-                    This commission worldwide has stood firm upon the twelve stones below and they have resulted in breakthroughs – both for the ministry and all that are partakers of the same grace with us.
-                </span>
-            </div>
-            <div class="desc_image_name_container">
-                <div class="desc_image">
-                    <img src="./assets/images/Bishop-David-Oyedepo.jpg" alt="">
-                </div>
-                <div class="image_name">
-                    <span class="main">Bishop David Olaniyi OYEDEPO</span>
-                    <span class="role">President of LFCW</span>
-                </div>
-            </div>
-        </section>
-        <!-- The twelve Pillars Of the LFCW -->
-        <section class="pillars">
-            <div data="faith" class="card">
-                <div class="card_icon">
-                    <i class="fa-solid fa-fire-flame-curved"></i>
-                </div>
-                <div class="card_name">Faith</div>
-            </div>
-            <div class="card" data="word">
-                <div class="card_icon">
-                    <i class="fa-solid fa-book-bible"></i>
-                </div>
-                <div class="card_name">The Word</div>
-            </div>
-            <div class="card" data="supernatural">
-                <div class="card_icon">
-                    <i class="fa-solid fa-bolt"></i>
-                </div>
-                <div class="card_name">The Supernatural</div>
-            </div>
-            <div class="card" data="praise">
-                <div class="card_icon">
-                    <i class="fa-solid fa-hands-clapping"></i>
-                </div>
-                <div class="card_name">Praise</div>
-            </div>
-            <div class="card" data="holy_spirit">
-                <div class="card_icon">
-                    <i class="fa-solid fa-dove"></i>
-                </div>
-                <div class="card_name">The Holy Spirit</div>
-            </div>
-            <div class="card" data="prosperity">
-                <div class="card_icon">
-                    <i class="fa-solid fa-chart-line"></i>
-                </div>
-                <div class="card_name">Prosperity</div>
-            </div>
-            <div class="card" data="vision">
-                <div class="card_icon">
-                    <i class="fa-solid fa-bullseye"></i>
-                </div>
-                <div class="card_name">Vision</div>
-            </div>
-            <div class="card" data="prayer">
-                <div class="card_icon">
-                    <i class="fa-solid fa-person-praying"></i>
-                </div>
-                <div class="card_name">Prayer</div>
-            </div>
-            <div class="card" data="healing">
-                <div class="card_icon">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="card_name">Healing</div>
-            </div>
-            <div class="card" data="wisdom">
-                <div class="card_icon">
-                    <i class="fa-regular fa-lightbulb"></i>
-                </div>
-                <div class="card_name">Wisdom</div>
-            </div>
-            <div class="card" data="consecration">
-                <div class="card_icon">
-                    <i class="fa-solid fa-cross"></i>
-                </div>
-                <div class="card_name">Consecration</div>
-            </div>
-            <div class="card" data="success">
-                <div class="card_icon">
-                    <i class="fa-solid fa-ranking-star"></i>
-                </div>
-                <div class="card_name">Success</div>
-            </div>
-            <div id="pillar_modal" class="main-modal-wrapper hide">
-                <div class="main-modal about_main-modal">
+            <div id="form_modal" class="main-modal-wrapper hide">
+                <div class="main_modal">
                     <div class="modal_header">
                         <div class="button_container">
-                            <div id="closer" class="button">
+                            <div id="form_closer" class="button">
                                 <i class="fa-solid fa-x"></i>
                             </div>
                         </div>
-                        <div id="pillar_modal_title" class="modal_title">
-                            <span></span>
+                        <div class="modal_title">
+                            <span>Register your testimony</span>
                         </div>
                     </div>
-                    
-                    <div id="pillar_modal_text" class="modal_text">
-                        <span></span>
-                    </div>
-                   
+                        <form action="" name="form" id="form" method="post">
+                            <input type="hidden" name="Date" id="date" value=" ">
+                            <div class="form_line">
+                                <div class="input_container">
+                                    <div>Surname</div>
+                                    <input type="text" name="Surname" id="surname" placeholder="Type your surname">
+                                </div>
+                                <div class="input_container">
+                                    <div>Name</div>
+                                    <input type="text" name="Name" id="name" placeholder="Type your name">
+                                </div>
+                            </div>
+                            <div class="form_line">
+                                    <div>Contact</div>
+                                    <input type="text" name="Contact" id="contact" placeholder="Type your phone number">
+                            </div>
+                            <div class="form_line">
+                                    <div>What is the title of your testimony ?</div>
+                                    <input type="text" name="Title" id="title" placeholder="Type the title here">
+                            </div>
+
+                            <div class="form_textarea">
+                                <div>Please type in your testiomny</div>
+                                <textarea name="Testimony" id="testimony" placeholder="Type your testimony here"></textarea>
+                            </div>
+                            <div class="button_container">
+                                <button>Submit</button>
+                            </div>
+                        </form>
+
                 </div>
             </div>
         </section>
-        <!-- auto-scrolling gallery -->
-        <section id="gallery">
-            <div class="wrapper">
-                <div class="gallery_background">
-                    <div class="logo">
-                        <img src="./assets/images/wci_lome_front_image.jpg"/>
-                    </div>
-                    <div class="logo">
-                        <img src="./assets/images/wci_lome_image.png"/>
-                    </div>
-                    <div class="logo">
-                        <img src="./assets/images/wci_lome_service.jpg"/>
-                    </div>
-                    <div class="logo">
-                        <img src="./assets/images/wci_lome_service_2.jpg"/>
-                    </div>
-                    <div class="logo">
-                        <img src="./assets/images/wci_lome_service_3.jpg"/>
-                    </div>
-                    <div class="logo">
-                        <img src="./assets/images/fortune_2024.jpeg"/>
+        <section>
+            <div class="section_header">
+                <span class="main_title">STRIKING TESTIMONIES</span>
+            </div>
+            <div class="testimonies-list">
+                <div id="testimony-bars-container" class="testimony-bars-container">
+                </div>
+                <div id="testimony_modal" class="main-modal-wrapper hide">
+                    <div class="main-modal about_main-modal">
+                        <div class="modal_header">
+                            <div class="button_container">
+                                <div id="closer" class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </div>
+                            </div>
+                            <div id="pillar_modal_title" class="modal_title">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <div id="pillar_modal_text" class="modal_text">
+                            <span></span>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
-      
-          </section>
+        </section>
     </main>
+    <!-- footer section with the informations concerning WCI Lome Airport -->
     <footer>
         <div class="description_contact_info_container">
             <div class="logo_name_container">
@@ -353,5 +285,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
