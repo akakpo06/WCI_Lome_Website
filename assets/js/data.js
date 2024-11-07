@@ -166,7 +166,7 @@ let ministries = {
     `, "./assets/images/teenagers.jpeg"],
     
 
-    "youth": ["Youth Alive",`The Youth Alive Fellowship is established in all Living Faith Church stations worldwide. The objective is to update and upgrade our youths on total development, spirit, soul and body
+    "youth": ["Youth Alive Fellowship",`The Youth Alive Fellowship is established in all Living Faith Church stations worldwide. The objective is to update and upgrade our youths on total development, spirit, soul and body
         <br/>
             <b>Aims and Objectives</b>
             <ul>
