@@ -135,15 +135,22 @@ let giving_ways_data = {
 }
 
 let ministries = {
-    "children": ["Children's Church",`'We have a strong passion for Children and the desire to see them grow in the knowledge of Christ. We believe that as your children become rooted and grounded here, they would become and remain winners in every area of their lives in Jesus name.
-    <br/>
-    The Children’s church is designed to assist the children with developing a real relationship with God, Jesus Christ, and the person of the Holy Spirit by teaching them the word of faith that will deliver them from all oppressions of the devil.
-    <br/>
-    Our main goal as the leaders, teachers, and members of the Children’s church team is to reach out to every child with the love of Christ and do all we can to saturate the spirit, soul and body of the children with the word of God so they are equipped with all they would need to face the challenges of life and come out triumphant.
-    <br/>
-    We believe that it is when the children have understanding that they can begin to walk towards a lifetime of excellence in every area of their lives.
-    <br/>
-    The Children’s Church services holds at <b>6.30am and 8.35am.</b>`, "./assets/images/children_ministry.jpg"],
+    "children": ["Children's Church",`'Today’s children are the leaders of tomorrow in the family, church and government. To say that children are a target of the devil’s attack these days, especially through the media, is simply stating the obvious. We therefore need to employ strategies that will enhance our efforts at raising the next generation and preparing them to take the baton of leadership to the glory of God
+<br />
+        The following are the objectives of the Children Church:
+        <ul>
+            <li>To teach them the fear of the Lord (Ps.34:11;Pro.1:10).</li>
+            <li>To inculcate in them the values and virtues of the Church thereby preserving the heritage of the Church (Ps.127:3).</li>
+            <li>To present the gospel to them in their own language.</li>
+            <li>To cater for their level of understanding and assimilation of the gospel.</li>
+            <li>To meet the different needs and challenges of their age groups.</li>
+            <li>To preserve them from the pollution, corruption and decadence of the society (Ps.144:7,11)</li>
+            <li>Discipline them for exploits in the kingdom (Dan,1:20;Dan.11:32;Ps.127:5)</li>
+            <li>To raise children of renown and excellence (Ps.144:12).</li>
+            <li>To give them purpose forliving (Dan.1:8)</li>
+            <li>To teach them the pattern for living</li>
+        </ul>
+        The Children’s Church services holds at <b>6.30am and 8.35am.</b>`, "./assets/images/children_ministry.jpg"],
 
     "teens": ["Teenager's Ministry",`The Teens Church at Winners Chapel Lome TOGO is designed to reach out to our teenagers with the liberating message of faith to build them up for a glorious future.
     <br/>
@@ -154,16 +161,22 @@ let ministries = {
     Therefore, all teenagers are welcome to partake of this colourful ministry to deliver a glorious destiny. You may find the details below helpful in giving directions concerning some of the events in our teens church calendar.
     <br/>
     In addition to these set programs, there will be special programs brought to your notice from time to time for the edification of our teenagers. We encourage you to take part in them and they will bring a change of story.
-    <br/>
+    <br/><br/>
     Teens Chuch service hold from <b>6.30 a.m to 8.30 a.m</b>
     `, "./assets/images/teenagers.jpeg"],
     
 
-    "youth": ["Youth's Ministry",`Our Youth and Singles Ministry at Winners Chapel International Lome TOGO is designed in a unique way to enhance the value of every individual and set them up for supernatural accomplishments.
+    "youth": ["Youth Alive",`The Youth Alive Fellowship is established in all Living Faith Church stations worldwide. The objective is to update and upgrade our youths on total development, spirit, soul and body
         <br/>
-        This ministry is specifically focused on raising people with a difference.The programming of the youth and singles is directed at their specific needs, touching on areas like destiny, relationships and marriage, finance and many other relevant areas.
-        <br/>
-        We believe that when the youths and singles are spiritually buoyant, they will be definite change agents for this generation.
-        <br/>
-        Therefore you definitely need to be a part of this great army.Youth programs will usually be announced from time to time for your edification. Please take full advantage of them and your life will never be the same`,"./assets/images/youth.jpeg"]
+            <b>Aims and Objectives</b>
+            <ul>
+                <li>To operate as the umbrella body for all youths in the church.</li>
+                <li>To harmonize spiritual and social development of the youths through various relevant programmes.</li>
+                <li>To act as a bond of unity among the youths.</li>
+                <li>To coordinate youth activities within the church and campuses.</li>
+                <li>To encourage the practice of traditions and values of the Church.</li>
+                <li>To imbibe the spirit of the Commission.</li>
+                <li>To effectively coordinate the Annual International Youth Alive Convention.</li>
+            </ul>`,
+            "./assets/images/youth.jpeg"]
 }
