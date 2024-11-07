@@ -1,3 +1,6 @@
+main{
+    padding: 0%;
+}
 .share_testimony{
     padding: 5% 0%;
     text-align: center;
@@ -26,10 +29,10 @@ button:hover{
     font-size: 2.5rem;
 }
 .testimony-bars-container{
-    padding: 0% 5%;
+    padding: 0% 10%;
 }
 .testimony-bar{
-    margin: 2% 0% ;
+    margin: 2% ;
     box-shadow: 2px 2px 1000px rgb(189, 188, 188);
     padding: 3% 2%;
     width: 900px;
@@ -72,4 +75,27 @@ button:hover{
 .form_line input{
     height: 40px;
     width: 50%;
+}
+
+@media screen and (max-width: 1007px) {
+    .testimony-bar{
+        width: 600px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .testimony-bar{
+        white-space: wrap;
+        width: 300px;
+        height: 100px;
+    }
+
+    .share_testimony button{
+        width: 250px;
+        font-size: 1rem;
+    }   
+    .form_line input{
+        width: 100%;
+    }
 }
