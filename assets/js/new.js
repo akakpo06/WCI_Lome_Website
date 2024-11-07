@@ -1,3 +1,4 @@
+
 // getting the form from the HTML
 const form = document.forms['form']// Handling form submission
 form.addEventListener('submit', e => {
@@ -18,6 +19,7 @@ let address = document.getElementById("address").value
 let email = document.getElementById("email").value
 let contact = document.getElementById("contact").value
 let prayer = document.getElementById("prayer").value
+
 
 
 

@@ -59,6 +59,13 @@
     font-family: "poppins_regular";
     font-size: 1rem;
 }
+.modal_footer{
+    margin-top: 5%;
+    font-family: "poppins_bold";
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
 
 @media screen and (max-width: 700px) {
     .modal_title{
