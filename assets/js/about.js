@@ -40,6 +40,7 @@ cards.forEach(card  =>{
 
         // Showing the pillar modal
         card_modal.style.display = "flex"
+        document.body.style.position = 'fixed'
 
         // getting the title and text container from the HTML
         // adding the title and the body text to the modal
@@ -60,6 +61,7 @@ cards.forEach(card  =>{
         // Setting an event listener on the closer tag for open and close toggling
         closer.addEventListener("click", () => {
             card_modal.style.display = "none"
+            document.body.style.position = ''
         })
     })
 })

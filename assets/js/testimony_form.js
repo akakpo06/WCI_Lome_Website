@@ -7,6 +7,7 @@ form_button.addEventListener("click", () => {
 
   
     form_modal.style.display = "flex"
+    document.body.style.position = 'fixed'
     
 
 
@@ -69,6 +70,7 @@ console.log(surname + " " + name + " " + testimony)
     // Setting an event listener on the closer tag for open and close toggling
     form_closercloser.addEventListener("click", () => {
         form_modal.style.display = "none"
+        document.body.style.position = ''
     })
 
 })
