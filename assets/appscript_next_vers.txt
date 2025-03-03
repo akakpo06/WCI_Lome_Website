@@ -1,0 +1,38 @@
+//activation des props Appscript pour stocker des valeurs
+const scriptProp = PropertiesService.getScriptProperties()
+
+//ajout de l'id du doc google sheet en cours d'utilisation
+function intialSetup () {
+  const activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+  scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+
+//fonction pour convertir les lien courts en liens étendus
+function getCoordinatesFromLink(link) {
+  const test = "https://maps.app.goo.gl/g53EG2wepy5jzaCx8"
+  try {
+    const url = "https://unshorten.me/api/v2/unshorten?url="+test;
+      const headers = {
+        Authorization: "Token  token_unshorten_me"
+      };
+      const extended = UrlFetchApp.fetch(url, {headers: headers})
+      console.log(extended.getContentText())
+  }
+  catch(e) {
+    console.log(JSON.stringify({ 'result': 'error', 'error': e }))
+  };
+}
+
+
+
+function afterFormSubmit(e) {
+  // récupération des données provenant du formulaire
+    var info = e.namedValues;
+    
+    intialSetup();
+
+    
+}
+
+const sheetName = 'Cells_coordinates'

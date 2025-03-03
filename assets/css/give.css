@@ -1,0 +1,168 @@
+/* GIVE PAGE CSS */
+/* HEADER */
+main{
+    padding: 5% 15%;
+    color: var(--primary);
+}
+.page_title{
+    font-family: "poppins_bold";
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 5%;
+}
+.giving_ways_container{
+    display: flex;
+    justify-content: space-around;
+}
+.giving_way_container{
+    width: 25%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "poppins_regular";
+}
+.giving_way{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.giving_way img{
+    border-radius: 10px;
+}
+.giving_way_container:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.giving_ways_modal_wrapper{
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GIVING WAYS MODAL */
+.giving_ways_modal{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    background-color: white;
+    color: black;
+    min-height: 250px;
+    border-radius: 10px;
+}
+.image_container{
+    width: 40%;
+}
+.image_container img{
+    border-radius: 10px;
+}
+.description_closer_container{
+    padding: 1%;
+    width: 58%;
+}
+.giving_way_modal .description_container{
+    padding: 5%;
+}
+.description_header{
+    font-family: "poppins_bold";
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.items_list{
+    font-family: "poppins_regular";
+    font-size: 1.2rem;
+}
+.items_title{
+    font-family: "poppins_bold";
+    font-size: 1.1rem;
+}
+.description_footer{
+    display: flex;
+    justify-content: space-around;
+}
+.description_closer_container .closer_container{
+    display: flex;
+    justify-content: end;
+}
+.button{
+    background-color: #353b48;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* RESPONSIVE VERSIONS */
+/* TABLET VERSION */
+@media screen and (max-width: 1007px){
+    .page_title{
+        font-size: 2rem;
+    }
+    .giving_way_container{
+        width: 30%;
+        font-size: 1rem;
+    }
+    .giving_way{
+        height: 150px;
+    }
+    .giving_ways_modal{
+        height: 15%;
+    }
+    .description_header{
+        font-size: 1.2rem;
+    }
+    .items_list{
+        font-size: 0.8rem;
+    }
+    .button{
+        font-size: 1rem;
+    }
+}
+
+/* PHONE VERSION */
+@media screen and (max-width: 700px) {
+
+    .giving_ways_container{
+        flex-direction: column;
+    }
+    .giving_way_container{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .giving_way{
+        height: 200px;
+    }
+    .giving_ways_modal{
+        position: relative;
+        width: 80%;
+        height: 30%;
+        flex-direction: column;
+    }
+    .giving_ways_modal>div{
+        width: 100%;
+        height: 50%;
+    }
+    .description_closer_container .closer_container{
+        position: absolute;
+        top: 2%;
+        right: 2%;
+    }
+    .button{
+        width: 25px;
+        height: 25px;
+    }
+}
+

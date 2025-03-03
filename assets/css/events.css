@@ -1,0 +1,223 @@
+/* HTML */
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+header::after{
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* UPCOMING EVENTS */
+.next_event{
+    padding: 10% 0% 5% 0%;
+}
+.main_title{
+    text-align: center;
+    font-family: "poppins_bold";
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+}
+.next_event_presenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.next_event_presenter .image_container{
+    box-shadow: 5px 5px 100px rgb(143, 142, 142);
+    width: 50%;
+    cursor: pointer;
+}
+.event_name{
+    padding: 2%;
+    font-family: "poppins_regular";
+    font-size: 2rem;
+}
+
+/* MONTHLY SCHEDULES */
+.monthly_schedules{
+    padding: 2% 10%;
+    display: flex;
+    justify-content: center;
+}
+.month_schedules{
+    padding: 2% 2%;
+    width: 50%;
+    color: black;
+    border: 15px solid var(--primary);
+    background: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 5%;
+    min-height: 400px;
+}
+.schedule_title{
+    font-family: "kalam-bold";
+    font-size: 2.5rem;
+    text-align: center;
+}
+.schedules{
+    font-family: "kalam-regular";
+    font-size: 2rem;
+    padding: 0% 5%;
+}
+.schedules ul{
+    list-style-type: none;
+    padding: 0%;
+}
+.schedules ul li{
+    padding-top: 5%;
+    cursor: pointer;
+}
+.schedules ul li:hover{
+    transition: ease-in-out;
+    transform: scale(1.2);
+}
+
+/* SCHEDULE MODAL */
+.schedule_modal_wrapper{
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+.schedule_modal{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    color: black;
+    min-height: 500px;
+}
+.image_container{
+    width: 40%;
+}
+.description_closer_container{
+    padding: 1%;
+    width: 58%;
+}
+.schedule_modal .description_container{
+    padding: 5%;
+}
+.description_header{
+    font-family: "poppins_bold";
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.description_text, 
+.items_list,
+.description_footer{
+    font-family: "poppins_regular";
+    font-size: 1rem;
+}
+.items_title{
+    font-family: "poppins_bold";
+    font-size: 1.1rem;
+}
+.description_footer{
+    display: flex;
+    justify-content: space-around;
+}
+.description_closer_container .closer_container{
+    display: flex;
+    justify-content: end;
+}
+.button{
+    background-color: #353b48;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.link_text span a{
+    text-decoration: none;
+    color: inherit;
+}
+/* RESPONSIVE VERSIONS */
+/* TABLET VERSION */
+@media screen and (max-width: 1007px) {
+    .main_title{
+        font-size: 2rem;
+    }
+    .event_name{
+        font-size: 1.2rem;
+    }
+    .schedule_modal{
+        height: 45%;
+        min-height: 0px;
+    }
+    .month_schedules{
+        width: 40%;
+    }
+    .schedule_title{
+        font-size: 1.2rem;
+    }
+    .schedules ul li{
+        font-size: 0.8rem;
+    }
+    .description_header{
+        font-size: 1.2rem;
+    }
+    .description_text, .items_list, .description_footer{
+        font-size: 0.8rem;
+    }
+    .button{
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+}
+/* PHONE VERSION */
+@media screen and (max-width: 700px) {
+    .month_schedules{
+        margin-top: 15%;
+        min-height: 200px;
+        width: 75%;
+    }
+    .schedule_modal{
+        position: relative;
+        flex-direction: column;
+        height: 70%;
+    }
+    .image_container{
+        width: 100%;
+    }
+    .description_closer_container{
+        width: 100%;
+    }
+    .description_header{
+        font-size: 1rem;
+    }
+    .description_text, .items_list, .description_footer{
+        font-size: 0.6rem;
+    }
+    .closer_container{
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+    .closer_container .button{
+        width: 25px;
+        height: 25px;
+    }
+}

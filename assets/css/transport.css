@@ -1,0 +1,57 @@
+/* DESCRIPTION */
+.description{
+    font-family: "poppins_regular";
+    font-size: 1.2rem;
+    padding: 5% 10%;
+}
+.bus_stops_container{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.area_bus_stops{
+    width: 250px;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    min-height: 150px;
+    box-shadow: 10px 10px 10px rgb(212, 205, 205) ;
+    margin: 2%;
+    padding: 2%;
+}
+.area_name{
+    font-family: "poppins_bold";
+    font-size: 1.3rem;
+    text-align: center;
+}
+.bus_stops_list ul{
+    list-style-type: none;
+    font-family: "poppins_regular";
+    font-size: 1rem;
+}
+.bus_stops_list ul li{
+    padding-top: 1%;
+    cursor: pointer;
+}
+.bus_stops_list ul li:hover{
+    transition: ease-in-out;
+    text-decoration: underline;
+}
+.bus_stops_list ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* RESPONSIVE VERSION */
+@media screen and (max-width: 1007px){
+    .description{
+        font-size: 0.8rem;
+    }
+    .area_name{
+        font-size: 1rem;
+    }
+    .bus_stops_list ul{
+        font-size: 0.8rem;
+    }
+}
