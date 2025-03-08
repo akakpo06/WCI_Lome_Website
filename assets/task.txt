@@ -1,3 +1,0 @@
-handle cell locator data provision and markers' setting
-Update with text content
-deploy
